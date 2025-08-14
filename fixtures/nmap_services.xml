@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<nmaprun>
+ <host>
+  <ports>
+   <port protocol="tcp" portid="22">
+    <state state="open"/>
+    <service name="ssh" product="OpenSSH" />
+   </port>
+   <port protocol="tcp" portid="80">
+    <state state="open"/>
+    <service name="http" product="Apache httpd" />
+   </port>
+   <port protocol="tcp" portid="7547">
+    <state state="open"/>
+    <service name="tr069" product="Some CPE" />
+   </port>
+  </ports>
+ </host>
+</nmaprun>

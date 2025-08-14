@@ -1,0 +1,8 @@
+# Nmap 7.93 scan initiated Fri Jan  1 00:00:00 2021 as: nmap -sV -oX - 192.0.2.10
+Nmap scan report for 192.0.2.10
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.4p1
+80/tcp   open  http    Apache httpd 2.4.41
+7547/tcp open  tr069   Some CPE
+Service detection performed. Please report any incorrect results.
+# Nmap done at Fri Jan  1 00:00:01 2021 -- 1 IP address (1 host up) scanned in 1.00 seconds

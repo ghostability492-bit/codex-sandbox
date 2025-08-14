@@ -1,0 +1,4 @@
+[
+  {"source":"vulners","id":"CVE-2020-1234","score":7.5,"title":"Sample vuln","service":"OpenSSH","confidence":"exact"},
+  {"source":"nvd","id":"CVE-2021-5678","score":5.0,"title":"HTTP issue","service":"Apache httpd","confidence":"fuzzy"}
+]
